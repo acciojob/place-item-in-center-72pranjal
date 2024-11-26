@@ -1,7 +1,12 @@
 
 /* Your CSS Code here. */
-.holder .item-1 {
+.holder {
 	display: flex;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
+}
+.holder .item-1 {
+	background-color: red;
+	height: 100px;
+	width: 100px
 }
